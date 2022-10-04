@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="50sp"
+    android:layout_height="match_parent"
+    tools:context=".ThirdPage">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/information_str"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:layout_marginBottom="40sp"
+        android:layout_gravity="center"
+        android:paddingTop="30sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_string"
+            android:layout_marginLeft="20sp"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fullNameView"
+            android:text="@string/fname_str"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_weight="1.7"
+            android:paddingTop="30sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/age_string_p3"
+            android:textSize="25sp"
+            android:layout_marginLeft="20sp"
+            android:layout_weight="1"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/age_string"
+            android:id="@+id/ageView"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_weight="1.9"
+            android:paddingTop="30sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gender_string"
+            android:textSize="25sp"
+            android:layout_marginLeft="20sp"
+            android:layout_weight="1"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/maleorfemale_str"
+            android:id="@+id/genderView"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_weight="1.7"
+            android:paddingTop="30sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_string"
+            android:textSize="25sp"
+            android:layout_marginLeft="20sp"
+            android:layout_weight="1"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_str"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:id="@+id/aboutView"
+            android:layout_weight="2.5"
+            android:paddingTop="30sp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/department_str"
+            android:textSize="25sp"
+            android:layout_marginLeft="20sp"
+            android:layout_weight="1"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/itorcseorece_str"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:id="@+id/deptView"
+            android:layout_weight="9.8"
+            android:paddingTop="30sp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

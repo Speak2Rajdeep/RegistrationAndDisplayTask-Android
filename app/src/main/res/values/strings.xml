@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Registration and Display Task</string>
+    <string name="welcome_str">Welcome</string>
+    <string name="to_str">To</string>
+    <string name="android_str">Android</string>
+    <string name="firstname_str">First Name :</string>
+    <string name="lastname_str">Last Name :</string>
+    <string name="fname_str">First Name</string>
+    <string name="lname_str">Last Name</string>
+    <string name="age_str">Age :</string>
+    <string name="gender_str">Gender</string>
+    <string name="genderM_str">Male</string>
+    <string name="genderf_str">Female</string>
+    <string name="age_hint">Age</string>
+    <string name="information_str">INFORMATION</string>
+    <string name="name_str">"Name : "</string>
+    <string name="name_string">Name :</string>
+    <string name="Age_string">"Age : "</string>
+    <string name="itorcseorece_str">ITorCSEorECE</string>
+    <string name="department_str">Department :</string>
+    <string name="maleorfemale_str">MaleorFemale</string>
+    <string name="gender_string">Gender :</string>
+    <string name="age_string">Age</string>
+    <string name="age_string_p3">Age :</string>
+    <string name="about_string">About :</string>
+    <string name="about_str">About</string>
+    <string name="about_heading_string">About</string>
+</resources>
